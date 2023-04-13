@@ -19,7 +19,7 @@ const About = () => {
         <div id='about' style={{marginTop: '10vh'}} className='flex flex-col md:flex-row justify-center h-screen p-8 leading-relaxed'>
             <div className='text-white text-center md:text-left w-full md:w-2/3'>
                 {/* <span className={bungeeShade.className}></span> */}
-                <h1 id="name" className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl'>Hello, I'm Dominique Nix</h1>
+                <h1 id="name" className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl pb-8'>Hello, I'm Dominique Nix</h1>
                 <p style={{marginBottom:'10vh'}} className="text-lg sm:text-xl md:text-2xl lg:text-3xl">I’m a <span className='text-teal-400'>Full Stack Software Developer</span>. I graduated from UT Austin's Full Stack Coding Certification program. I have experience working with front-end languages and frameworks, back-end languages, databases, building full stack MERN applications, and more.</p>
             </div>
             <div className="flex flex-col items-center">

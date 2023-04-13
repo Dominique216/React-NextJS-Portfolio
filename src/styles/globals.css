@@ -28,6 +28,10 @@
   box-shadow: -0.5rem 0.5rem #075985, -1rem 1rem #0c4a6e;
 }
 
+.skills-pill {
+  box-shadow: 0 3px 10px #082f49;
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
