@@ -1,0 +1,23 @@
+:root {
+    --teal: #2dd4bf;
+  }
+
+/* @media (min-width: 768px) {
+    #avatar {
+         margin-top: -25vh;
+         margin-bottom: -25vh;
+    }
+  } */
+  
+/* #avatar {
+    height: 25vh;
+    width: 25vw;
+}
+
+#about-icons {
+    margin-top: 10%;
+} */
+/* 
+#about-icons:hover {
+    color: var(--teal)
+}  */
