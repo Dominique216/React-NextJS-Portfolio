@@ -5,8 +5,8 @@ const Skills = () => {
     return(
         <div id="skills" className="-mt-8">
             <h1 id="name" className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white pb-8">Skills and Languages</h1>
-            <div className="flex flex-col items-center md:flex-row">
-                <div className='w-1/2 md:w-1/4 h-5/6 bg-sky-700 m-5 rounded-lg z-10 skills-box h-full'>
+            <div className="flex flex-col items-center md:flex-row h-fit  md:items-stretch">
+                <div className='w-1/2 md:w-1/4 bg-sky-700 m-5 rounded-lg z-10 skills-box'>
                     <h1 className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">Front End</h1>
                     <ul className="text-sky-900 p-3">
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-5 my-2 mx-auto">HTML</li>
@@ -20,7 +20,7 @@ const Skills = () => {
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-5 my-2 mx-auto">Material UI</li>
                     </ul>
                 </div>
-                <div className='w-1/2  md:w-1/4 h-80 bg-sky-700 m-5 rounded-lg z-10 skills-box h-full'>
+                <div className='w-1/2  md:w-1/4 bg-sky-700 m-5 rounded-lg z-10 skills-box'>
                     <h1 className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">Back End</h1>
                     <ul className="text-sky-900 p-3">
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-5 my-2 mx-auto">Python</li>
@@ -32,7 +32,7 @@ const Skills = () => {
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-5 my-2 mx-auto"> Mongoose</li>
                     </ul>
                 </div>
-                <div className='w-1/2 md:w-1/4 h-80 bg-sky-700 m-5 rounded-lg z-10 skills-box h-full'>
+                <div className='w-1/2 md:w-1/4 bg-sky-700 m-5 rounded-lg z-10 skills-box'>
                     <h1 className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">Concepts</h1>
                     <ul className="text-sky-900 text-center p-3">
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-2 my-2 mx-auto">Object Oriented Programing</li>
@@ -42,7 +42,7 @@ const Skills = () => {
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-2 my-2 mx-auto">MERN Applications</li>
                     </ul>
                 </div>
-                <div className='w-1/2  md:w-1/4 h-80 bg-sky-700 m-5 rounded-lg z-10 skills-box h-full'>
+                <div className='w-1/2  md:w-1/4 bg-sky-700 m-5 rounded-lg z-10 skills-box'>
                     <h1 className="text-white text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">Other Skills</h1>
                     <ul className="text-sky-900 p-3">
                     <li className="skills-pill text-2xl rounded-full bg-teal-400 w-fit px-5 my-2 mx-auto">GitHub</li>

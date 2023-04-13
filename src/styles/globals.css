@@ -14,13 +14,14 @@
 
 #about-icons {
   margin-top: 10%;
-  margin-left: 9%;
+  margin-bottom: 30%;
 }
 
 @media (min-width: 768px) {
   #about-icons {
-      margin-left: 30%;
-       margin-top: 35%;
+      margin-left: 25%;
+      margin-top: 35%;
+      margin-bottom: 0%
   }
 }
 
@@ -32,6 +33,16 @@
   box-shadow: 0 3px 10px #082f49;
 }
 
+#avatar{
+  margin-right: 7%;
+}
+
+@media (min-width: 768px) {
+  #avatar {
+    margin-right: 0;
+    margin-top: 20%
+  }
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
