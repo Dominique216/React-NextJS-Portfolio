@@ -43,6 +43,14 @@
     margin-top: 20%
   }
 }
+
+.carousel-pic {
+  box-shadow: 0 3px 10px #082f49;
+}
+
+.proj-title{
+  text-shadow: 2px 4px 4px var(--teal);
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

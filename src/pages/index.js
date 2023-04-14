@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Nav'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
+import Works from '@/components/Works'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,6 +13,7 @@ export default function Home() {
       < Navbar />
       < About />
       < Skills />
+      < Works />
     </div>
     
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
